@@ -1,0 +1,119 @@
+/* General Page Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #006663, #008080, #004c4c, #111111);
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: white;
+}
+
+
+/* Centering Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling File Input */
+form input[type="file"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* Adjust width to account for padding and border */
+    cursor: pointer;
+}
+
+/* Enhancing Submit Button */
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Additional Styling for Overall Balance */
+form input {
+    margin: 10px 0; /* Ensure consistent margin for all inputs */
+}
+.content {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+/* Centering Form and Inputs within .content */
+.content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+}
+
+.content form input[type="file"], .content form input[type="submit"] {
+    margin: 15px 0;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 60%;
+    max-width: 900px;
+}
+
+.content form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.content form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styling for Text and Links */
+.content p, .content a {
+    margin: 15px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+.div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 60%;
+    max-width: 900px;
+}

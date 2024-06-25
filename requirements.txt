@@ -1,0 +1,6 @@
+moviepy
+google.generativeai
+fastapi
+os
+time
+ffmpeg
